@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="SMC Legal">
+        <title>SMC Legal Services</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #ffffff;
+    position: relative ;  margin-block-start: 2%;   margin-block-end: 2%;  ">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">SMC Legal</a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                      <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>        
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <script>  
+            // 下拉菜单的导航条可以点击
+            $(document).ready(function(){
+                $(document).off('click.bs.dropdown.data-api');
+            });
+            // 鼠标悬停弹下拉菜单
+            $('li.dropdown').mouseover(function() {   
+                $(this).addClass('open');
+            }).mouseout(function() { 
+            $(this).removeClass('open');
+            });   
+            
+            </script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
